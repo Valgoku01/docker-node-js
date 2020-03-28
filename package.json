@@ -5,6 +5,11 @@
   "author": "Valentin BIAUD <valentin.biaud@gmail.com>",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "test": "mocha tests/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^7.1.1"
   }
 }
