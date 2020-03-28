@@ -8,5 +8,5 @@ var server = http.createServer(function(req, res) {
 });
 
 server.listen(8080, function() {
-    console.log('Server is running at 8080')
+    console.log('Server is running at 8080 !')
 });
