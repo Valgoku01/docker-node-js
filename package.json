@@ -2,7 +2,7 @@
   "name": "docker_node_js_web_app",
   "version": "1.0.0",
   "description": "Node.js on Docker",
-  "author": "Valentin BIAUD <v.biaud@pm.me>",
+  "author": "Valentin BIAUD <valentin.biaud@gmail.com>",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js"
