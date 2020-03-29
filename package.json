@@ -9,7 +9,8 @@
     "server": "supervisor src/server/server.js",
     "client-dev": "webpack-dev-server --mode development --devtool inline-source-map --hot",
     "dev": "concurrently \"npm run server\" \"npm run client-dev\"",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "react": "^16.13.1",
