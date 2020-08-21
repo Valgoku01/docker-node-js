@@ -4,6 +4,8 @@
   "description": "Node.js on Docker",
   "author": "Valentin BIAUD <valentin.biaud@gmail.com>",
   "main": "src/server.js",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "start": "node src/server.js",
     "test": "mocha tests/*.js"
