@@ -4,6 +4,8 @@
   "description": "Node.js on Docker",
   "author": "Valentin BIAUD <valentin.biaud@gmail.com>",
   "main": "src/server.js",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "test": "mocha tests/*.js",
     "server": "supervisor src/server/server.js",
@@ -31,7 +33,7 @@
     "eslint": "^6.8.0",
     "express": "^4.17.1",
     "html-webpack-plugin": "^4.0.3",
-    "mocha": "^7.1.1",
+    "mocha": "^8.1.1"
     "multer": "^1.4.2",
     "react-dom": "^16.13.1",
     "sass-loader": "^8.0.2",
