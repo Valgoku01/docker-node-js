@@ -13,6 +13,7 @@ package-lock.json must be added to ensure github CI process works
 `sudo docker stop 4ad508e8a99b`
 
 ## Wiki
+Install supervisor: `npm install -g supervisor`
 https://mochajs.org/ \
 https://registry.hub.docker.com/search?q=&type=image&architecture=arm%2Carm64&image_filter=official \
 https://nodejs.org/de/docs/guides/nodejs-docker-webapp/ \
